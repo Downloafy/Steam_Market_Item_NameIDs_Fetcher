@@ -2,6 +2,8 @@
 This repo is to fetch the Item_NameIDs of steam items, specifically for tf2 and cs2.
 This is only used for my google spreadsheet but you can use it for whatever.
 
+THIS REPO USES Node.js only so please use it in order to avoid any errors
+
 # Table Of Contents
 
  - [Installation](#installation)
