@@ -34,7 +34,8 @@ to start up the script you'll need to do a couple things
    ![ezgif com-optimize](https://github.com/user-attachments/assets/76e395a3-26a2-4ccf-b1cc-86c70d3b9749)
 
 4. then paste the url into the google apps script that is in the Google spreadsheet
-   <img width="590" height="128" alt="image" src="https://github.com/user-attachments/assets/e3c4187c-015c-4190-a586-99bac1f4d073" />
+   ![2025-10-2512-38-16-ezgif com-crop](https://github.com/user-attachments/assets/40f7f533-8866-4a71-9b53-e6a6e1e8bb3c)
+
 
 ## Close Process on Linux & Windows
 Go into your CMD (Windows) or Terminal (Linux) and press these 2 keys:
