@@ -1,15 +1,13 @@
 # Steam Market Item_NameIDs Fetcher
-This repo is to fetch the Item_NameIDs of steam items, specifically for tf2 and cs2.
-This is only used for my google spreadsheet but you can use it for whatever.
+***This is a custom script using Node.js, which is really only for my google spreadsheet***
 
-THIS REPO USES Node.js only so please use it in order to avoid any errors
-[Google Docs](https://docs.google.com/spreadsheets/d/1kpfpMxstHFHJWa32YYHnnsiN91yNcoeiTtkPHWI8k2Y/edit?gid=1315717706#gid=1315717706)
+[Google SpreadSheets](https://docs.google.com/spreadsheets/d/1kpfpMxstHFHJWa32YYHnnsiN91yNcoeiTtkPHWI8k2Y/edit?gid=1315717706#gid=1315717706)
+
 # Table Of Contents
 
  - [Installation](#installation)
  - [Usage](#usage)
- - [License](#license)
-
+ - [License](https://github.com/Downloafy/Steam_Market_Item_NameIDs_Fetcher/blob/main/LICENSE)
 # Installation
 Install these dependencies to make the script function.
 
@@ -25,31 +23,21 @@ npm install localtunnel
 to start up the script you'll need to do a couple things
 1. Download and Extract the folder into your desktop for easy access
 2. right click on an empty space inside the folder and open a command prompt or terminal
-3. Type
+   ![2025-10-2512-03-57-ezgif com-crop](https://github.com/user-attachments/assets/be19edf5-37e2-4335-9949-fb7f2e0a6993)
+
+3. Type this into the CMD (Windows) or Terminal (Linux)
+    - Copy the link and paste it into your browser to ensure that it works.
+
    ```shell
    npm start
    ```
-5. copy the link and paste it into your browser to ensure that it works.
-6. then paste the url into the google apps script that is in the Google spreadsheet
+   ![ezgif com-optimize](https://github.com/user-attachments/assets/76e395a3-26a2-4ccf-b1cc-86c70d3b9749)
 
-To close the port you can do 2 things:
-For linux:
-```shell
-sudo lsof -i :3000
-```
-then after you find the PID
-```shell
-sudo kill 12345
-```
-or if you want to do it way faster
-in the terminal press CTRL + C on your keyboard, it will close the script :)
+4. then paste the url into the google apps script that is in the Google spreadsheet
+   <img width="590" height="128" alt="image" src="https://github.com/user-attachments/assets/e3c4187c-015c-4190-a586-99bac1f4d073" />
 
-then for windows (I haven't tested it on windows yet so I might be wrong)
+## Close Process on Linux & Windows
+Go into your CMD (Windows) or Terminal (Linux) and press these 2 keys:
 ```shell
-netstat -ano
-```
-after you find the PID
-```shell
-netstat -ano | findstr :<yourPortNumber>
-taskkill /PID <typeyourPIDhere> /F
+CTRL + C
 ```
