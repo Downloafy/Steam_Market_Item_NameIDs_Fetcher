@@ -1,13 +1,13 @@
 {
   "name": "steam-scraper",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.3.8",
+    "localtunnel": "^2.0.1"
+  },
   "scripts": {
     "start": "node index.js"
-  },
-  "dependencies": {
-    "express": "^4.19.2",
-    "localtunnel": "^2.0.2",
-    "puppeteer": "^23.11.1"
   }
 }
