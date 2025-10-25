@@ -141,7 +141,7 @@ app.listen(PORT, async () => {
     console.log(`[INFO] Local server running on http://localhost:${PORT}`);
 
     // Start localtunnel for public access
-    const tunnel = await localtunnel({ port: PORT, subdomain: "steam-scraper" });
+    const tunnel = await localtunnel({ port: PORT, subdomain: "TYPE UR OWN WORDS!" });
     console.log(`[🚀 PUBLIC] Public URL: ${tunnel.url}`);
     tunnel.on("close", () => console.log("[INFO] Tunnel closed"));
 });
