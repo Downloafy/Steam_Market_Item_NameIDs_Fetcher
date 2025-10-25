@@ -41,6 +41,9 @@ then after you find the PID
 ```shell
 sudo kill 12345
 ```
+or if you want to do it way faster
+in the terminal press CTRL + C on your keyboard, it will close the script :)
+
 then for windows (I haven't tested it on windows yet so I might be wrong)
 ```shell
 netstat -ano
